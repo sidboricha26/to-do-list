@@ -7,8 +7,9 @@ root = Tk()
 #Set the title of the frame
 root.title("TO-DO LIST")
 #Set the geometry of tkinter frame
-root.geometry("400x650+400+100")
-root.resizable(False, False)
+root.geometry("400x650+400+100") # width x height + x + y
+#Set width and height as false to make the window with a fixed size
+root.resizable(False, False) #(width, height)
 
 task_list = []
 
